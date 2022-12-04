@@ -14,17 +14,42 @@
             padding: 0px;
         }
         
-        h1 {
+        header > h1 {
             background-color: cornflowerblue;
             text-align: center;
+            text-shadow: 1px 1px 0px cadetblue;
             margin-top: 0px;
             padding: 10px;
         }
+
+        article > h2 {
+            padding: 5px;
+            margin-top: 0px;
+            color: darkorange;
+        }
+
+        article {
+            background-color: white;
+            box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.294);
+            border-radius: 10px;
+            width: 500px;
+            margin: auto;
+            padding: 10px;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-    <p>Já me livrei da maldição!!!</p>
+    <header>
+        <h1>Olá, mundo!</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Já me livrei da maldição!!!</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias at molestiae suscipit autem laborum repellendus porro fuga, assumenda ducimus culpa, quia dolorum cupiditate corporis nobis molestias blanditiis, ab aliquid exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione, architecto, unde quibusdam inventore aliquid iure minima impedit modi soluta facere laudantium reprehenderit obcaecati magni explicabo excepturi magnam, vitae delectus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet iusto consequatur consectetur laudantium sunt minima exercitationem quia! Non odio officia accusantium rerum ratione expedita odit consequatur iusto magni porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti non repellat sed. Et quia tempore eum repudiandae? Necessitatibus esse harum similique laboriosam nulla incidunt fuga a eveniet id amet!</p>
+        </article>
+    </main>
     <script>
         window.alert('Minha primeira mensagem!')
         window.confirm('Está gostando de JavaScript?')
